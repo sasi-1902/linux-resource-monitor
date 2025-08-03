@@ -24,9 +24,11 @@ This Python-based desktop application provides real-time monitoring of key syste
 - Optional: psutil (if used for system metrics)
 
 Install dependencies
+
     pip install psutil
 
 How to Run
+
     python main.py
 
 # Notes
