@@ -15,18 +15,6 @@ This Python-based desktop application provides real-time monitoring of key syste
 
 ## Folder Structure
 
-linux-resource-monitor/
-├── main.py
-├── cpu_procs_backend.py
-├── cpu_procs_gui.py
-├── memory_backend.py
-├── memory_gui.py
-├── gpu_backend.py
-├── gpu_gui.py
-├── i_o_backend.py
-├── i_o_gui.py
-
-
 > The `__pycache__/` directory is automatically generated and should not be edited.
 
 ## Requirements
@@ -35,13 +23,10 @@ linux-resource-monitor/
 - tkinter (usually included with standard Python installs)
 - Optional: psutil (if used for system metrics)
 
-Install dependencies:
-
-    ```bash
+Install dependencies
     pip install psutil
 
 How to Run
-    ```bash
     python main.py
 
 # Notes
